@@ -1,0 +1,92 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  margin-right: 20px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* styles for small screens */
+}
+main .hero h1 {
+  font-size: 3em;
+  margin-top: 15rem;
+}
+main .hero h2 {
+  font-size: 2em;
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  main .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  main .hero h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+}
+main .hero .profile {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+main .hero .profile i {
+  font-size: 2em;
+}
+main .hero .profile .profile-details {
+  display: flex;
+  flex-direction: column;
+}
+main .hero .profile .profile-details p {
+  margin: 0;
+}
+main .hero .profile .profile-details p:first-child {
+  font-weight: bold;
+}
+main .hero img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+main .hero .buttons a {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+main .hero .buttons a:hover {
+  background-color: #555;
+}
+main .hero .buttons a.btn-primary {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid black;
+}
+main .hero .buttons a.btn-secondary {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
